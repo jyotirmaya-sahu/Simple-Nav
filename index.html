@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { margin:0 }
+        
+
+        .article-wrap {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+        }
+
+        .navMenu {
+            display: flex;
+            flex-direction: column;
+            flex-basis: fit-content;
+            flex-grow: 1;  
+        }
+        .navMenu .navItem {
+            padding: 12px;
+            background-color: #FAFBFC;
+            border: 1px solid #80808041;
+            font-weight: bold;
+            text-decoration: none !important;
+            color: black;
+            position: relative;
+            min-width: fit-content;
+        }
+
+        .navMenu .navItem:hover {
+            background-color: #CADEFC; 
+        }
+        .navMenu .navItem:active {
+            top: 1px;
+        }
+        .menu-links{
+            flex-basis: 80%;
+            flex-grow: 1;
+        }
+        .menu-links>section {
+            opacity: 0;
+            padding: 12px 12px 0 12px;
+            height: 0px;
+        }
+        .menu-links>section h2 {
+            margin: unset;
+            color: #0072f5;
+        } 
+
+        .menu-links>section:target {
+            display: block;
+            opacity: 1;
+            color: #11181c;
+            height: auto;
+            transition: all 0.15s ease;
+        }
+        
+        article {
+            background-color: #dfdfdf;
+        }
+        article h1 {
+            font-size: 30px;
+        }
+
+        article h2 {
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="up-box1">
+    </div>
+
+    <div class="article-wrap">
+        <nav class="navMenu">
+            <a href="#section1" class="navItem">Section 1</a>
+            <a href="#section2" class="navItem">Section 2</a>
+            <a href="#section3" class="navItem">Section 3</a>
+        </nav>
+        <article class="menu-links">
+            <!-- <h1>Table of content</h1> -->
+            <section id="section1">
+            <h2>Heading 1</h2>
+            <p>
+                Dolore reprehenderit nostrud esse adipisicing amet laborum laboris
+                Lorem anim deserunt cupidatat consectetur quis excepteur. Duis eu
+                dolor enim nisi ad ipsum et. Dolor ullamco elit incididunt commodo
+                cupidatat elit ullamco aliquip eu deserunt exercitation aliqua cillum
+                Lorem. Veniam aute commodo aliqua officia eu ex cupidatat.
+            </p>
+            </section>
+            <section id="section2">
+            <h2>Heading 2</h2>
+            <p>
+                Ullamco consectetur duis ut sunt. Qui tempor veniam ut duis et et
+                dolor eiusmod duis nisi excepteur aute. Et ullamco voluptate dolor
+                proident magna velit occaecat. Consequat ex ex elit dolor. Mollit sint
+                voluptate irure esse sunt ea nulla ea nisi fugiat commodo. Dolore
+                aliquip eu adipisicing sunt et consectetur officia ex eu culpa. Veniam
+                elit excepteur magna in consequat amet est quis ut ad. Deserunt qui
+                irure in veniam eiusmod. Exercitation culpa sunt cillum cillum irure
+                qui fugiat labore sunt dolor consectetur. Deserunt esse id duis enim
+                eu tempor laboris occaecat commodo duis aliquip id. Culpa ipsum id ex
+                irure tempor. Ipsum incididunt commodo deserunt incididunt. Minim
+                aliqua laborum laborum excepteur cupidatat exercitation est. Id elit
+                ut incididunt proident exercitation. Ipsum Lorem laboris eu in
+                occaecat. Enim adipisicing tempor veniam cupidatat cupidatat aliquip
+                proident occaecat esse aliquip adipisicing dolor. Velit enim in qui
+                adipisicing in Lorem qui sunt non. Duis commodo commodo cupidatat
+                fugiat fugiat pariatur cupidatat. Laboris sint quis nostrud qui
+                cupidatat. Sint deserunt officia sit nulla. Minim elit magna dolor
+                exercitation incididunt. Officia ipsum excepteur pariatur eu et labore
+                labore aute fugiat ipsum pariatur amet amet. Labore ullamco mollit
+                ullamco reprehenderit laborum irure cupidatat velit esse Lorem officia
+                nulla. Cillum fugiat consequat pariatur minim aute quis sit voluptate
+                excepteur occaecat. Eu ipsum ea duis minim sint consequat occaecat
+                elit consectetur aliqua laborum sit magna cillum. Ea nostrud commodo
+                excepteur laborum in. Velit id esse non id do sunt consequat. Officia
+                mollit ad velit ullamco qui cillum adipisicing. Do tempor excepteur
+                aute ullamco ullamco. Amet velit ad consectetur ipsum non consequat
+                et. Reprehenderit duis laborum proident mollit in fugiat.
+                Reprehenderit dolore ad Lorem culpa tempor magna laborum. Duis
+                proident velit consectetur ea. Officia incididunt voluptate aliqua
+                Lorem mollit incididunt cupidatat sint deserunt deserunt in.
+            </p>
+            </section>
+            <section id="section3">
+            <h2>Heading 3</h2>
+            <p>
+                Laboris id et voluptate reprehenderit voluptate est in do excepteur id
+                in tempor tempor elit. Est cillum enim labore esse adipisicing aliqua
+                sit est proident. Non in velit sit tempor velit officia cupidatat
+                nulla duis nostrud et voluptate Lorem magna. Minim qui et eiusmod
+                magna fugiat eiusmod dolore. Cupidatat eiusmod ipsum officia laborum.
+                Culpa officia commodo duis est aute sint cupidatat. Culpa ad qui
+                laborum do dolor esse proident officia est Lorem. Culpa est non
+                deserunt non duis Lorem anim. Irure deserunt cupidatat sunt amet
+                veniam consectetur occaecat id sit enim. Veniam minim laborum
+                reprehenderit velit voluptate fugiat ipsum deserunt excepteur enim
+                Lorem minim. Elit aliqua id qui velit et aute esse adipisicing enim
+                anim fugiat ex. Non ea dolore eiusmod ex ex occaecat Lorem. Voluptate
+                occaecat dolor et occaecat nisi elit exercitation officia nulla sit
+                sit exercitation culpa. Ex occaecat laborum do anim exercitation anim
+                voluptate irure exercitation magna quis veniam. Eiusmod magna
+                reprehenderit ullamco ipsum aliqua proident incididunt labore sint. Ea
+                qui consectetur mollit culpa incididunt amet eu sint voluptate ut sint
+                aliquip. Sit nisi id velit aliquip voluptate velit. Lorem id laborum
+                mollit fugiat do fugiat. Eu ut labore non voluptate laborum id veniam
+                eu dolore id. Ad minim mollit ipsum anim do nostrud occaecat.
+                Voluptate ut anim ex do minim commodo pariatur eiusmod do. Et deserunt
+                deserunt velit eiusmod proident officia eu. Ex reprehenderit ut ad sit
+                adipisicing occaecat. Qui eu qui deserunt duis nulla aliquip non.
+                Laborum magna ex quis et reprehenderit duis culpa culpa Lorem labore
+                ut laboris non. Veniam aliqua aute velit voluptate fugiat minim esse
+                consequat nostrud est enim exercitation mollit. In aliquip id
+                consequat dolore aliquip enim ad ea cupidatat et proident ea eiusmod
+                magna. Nulla officia minim incididunt consequat tempor magna
+                incididunt. Exercitation ut sunt ea do quis aute exercitation
+                excepteur velit aliqua anim duis. Sunt mollit elit eiusmod adipisicing
+                nulla aliqua eu non ex aute commodo. Voluptate anim duis dolore sunt
+                irure fugiat ut ad commodo ut ad dolore officia. Consequat
+                exercitation nulla ex ullamco. Proident esse magna adipisicing
+                excepteur cupidatat laboris fugiat adipisicing officia cillum. Duis
+                amet non deserunt eu id proident dolor proident magna dolore ex.
+                Aliquip amet incididunt culpa ut duis reprehenderit eiusmod in magna
+                fugiat exercitation ullamco qui. Nisi excepteur reprehenderit anim est
+                pariatur est incididunt minim laboris. Proident pariatur sint nulla
+                nulla culpa sunt mollit duis minim laborum cupidatat cillum eu quis.
+                Eu officia magna adipisicing cupidatat excepteur anim. Velit duis ea
+                anim non esse fugiat. Dolor officia ipsum ad laboris incididunt
+                consequat amet esse esse. Non mollit aliqua in pariatur proident minim
+                ea sunt. Culpa elit nisi sit velit quis laboris qui adipisicing labore
+                proident ullamco ea culpa.
+            </p>
+            </section>
+            <div class="line"></div>
+        </article>
+        </div>
+    </div>
+
+<div class="up-box2">
+</div>
+</body>
+</html>
